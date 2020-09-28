@@ -1,0 +1,221 @@
+/* Font: Special Elite; Exo, sans-serif;
+Farbe: #000, #fff; */
+
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@400;500;600;800&family=Special+Elite&display=swap');
+
+body {
+    margin:0;
+    padding: 0;
+    font-family: 'Special Elite', cursive;
+}
+
+nav ul {
+    text-align: right;
+    list-style: none;
+    margin:2rem;
+}
+
+nav li {
+    display: inline-block;
+    margin-right:1rem;
+}
+nav a {
+    text-decoration: none;
+    color: #000;
+}
+
+.headings {
+    font-family: 'Exo', sans-serif; 
+}
+
+#hero {
+height: 80vh;
+background-image: url(../img/bg.jpeg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+
+#hero img {
+    width:50%;
+    margin:15% auto 3% 0;
+}
+
+ .hello {
+    background-image: url(../img/beans_icon.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom:0;
+    
+} 
+.hello article {
+    padding:4rem 65% 4rem 4rem; 
+}
+
+.hello h2 {
+    margin:0;
+} 
+
+.hello .picture-static {
+    background-image: url(../img/bridge_1.jpg);
+}
+.picture-static {
+    
+    background-position:center; 
+	background-repeat: no-repeat; 
+	background-size:cover; 
+    background-attachment:fixed;
+    height:40vh;
+}
+
+
+.menu {
+    text-align: center;
+    background-image: url(../img/cake_icon.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: 60%;
+}
+
+.menu article {
+    padding-bottom:6vh;
+}
+
+.menu img {
+    width:5%;   
+}
+
+.menu a{
+text-decoration: none;
+color:black;
+font-size: .8rem;
+}
+
+.menu h2 {
+    margin:0;
+    padding:1%
+}
+
+.border {
+    border: 1px solid black;
+    padding:1rem;
+    margin:1% 30%;
+}
+
+.menu .picture-static {
+    background-image: url(../img/bridge_2.jpg);
+}
+
+.story {
+    width:100%;
+    background-image: url(../img/paper.png);
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-position: 60% 18%;
+}
+
+.story article {
+    width:20%;
+    margin:10vh auto 10vh 18%;
+    line-height: 1rem;
+}
+
+.story p {
+    line-height: 1.6rem;
+}
+
+.story .picture-static {
+    background-image: url(../img/bridge_3.jpg);
+}
+.catering .picture-static {
+    background-image: url(../img/bridge_4.jpeg);
+}
+
+.catering {
+    width:100%;
+    background-image: url(../img/pie_icon.png);
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position: top right;
+}
+
+.catering div:first-of-type {
+    margin: 10vh auto 10vh 20%;
+    display: inline-block;
+    width:30%;
+}
+.catering img {
+    width:78%;
+}
+
+.catering article {
+    /* margin: 10vh auto 10vh 10%; */
+    display: inline-block;
+    width:16%;
+    margin-top:10vh; 
+}
+
+.button {
+    text-decoration: none;
+    color:black;
+    border: solid 1px black;
+    padding:.2rem;
+}
+
+.cakes {
+    width:100%;
+    background-image: url(../img/muffin_icon.png);
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position: top left;
+}
+
+.cakes div:first-of-type {
+    margin: 10vh auto 10vh 20%;
+    display: inline-block;
+    width:30%;
+}
+.cakes img {
+    width:78%;
+}
+.cakes article {
+    /* margin: 10vh auto 10vh 10%; */
+    display: inline-block;
+    width:24%;
+    margin-top:10vh; 
+    padding-bottom: 10rem;
+}
+
+footer {
+    background: black;
+    color:white;
+    padding-top:5vh;
+    margin:0;
+    text-align: center;
+}
+
+footer ul {
+    margin:0;
+    list-style: none;
+}
+
+footer h3 {
+    font-size: 2rem;
+}
+
+footer p {
+    font-size: 1.8rem;
+    line-height: .1rem;
+}
+
+footer img {
+    width:2%;
+}
+
+#today {
+    width:6%;
+}
+/* 
+font-family: 'Exo', sans-serif;
+font-family: 'Special Elite', cursive; */
